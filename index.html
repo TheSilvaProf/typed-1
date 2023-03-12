@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Effect With Typed Js</title>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Sobre mim:
+            <span class="profession"></span>
+        </h1>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script>
+        let typedEffect = new Typed(".profession", {
+            strings: ['Frontend Developer', 'System Engineer', 'Web Designer', 'Free lancer'],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 100,
+
+        })
+    </script>
+    
+</body>
+</html>
